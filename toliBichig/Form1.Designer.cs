@@ -181,6 +181,7 @@
             btnClear.TabIndex = 13;
             btnClear.Text = "Цэвэрлэх";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnDelete
             // 

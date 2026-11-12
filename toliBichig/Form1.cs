@@ -353,5 +353,16 @@ namespace toliBichig
             else
                 MessageBox.Show("Энэ үг өмнө нь хадгалагдсан байна!");
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtEnglsh.Clear();
+            txtMongolian.Clear();
+            txtRussian.Clear();
+            txtSearch.Clear();
+
+            dataGridView1.ClearSelection();
+            LoadWords();
+        }
     }
 }
